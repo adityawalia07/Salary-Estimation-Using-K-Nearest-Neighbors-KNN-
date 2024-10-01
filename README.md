@@ -14,19 +14,19 @@ income: The income class, either <=50K or >50K.<br>
 ## Key Steps in the Project:
 Data Loading: The dataset is loaded using Pandas, and initial exploration is performed to understand the data.<br>
 
-Data Preprocessing:<br>
+###Data Preprocessing:<br>
 MinMax Scaling is applied to normalize the numerical features (age, education.num, capital.gain, and hours.per.week).<br>
 This ensures that all features contribute equally to the distance calculations in the KNN algorithm.<br>
 
-Visualization:<br>
+###Visualization:<br>
 A correlation heatmap is created to visualize the relationships between the features. <br>
 This helps identify strong or weak correlations, which can assist in feature selection or engineering.<br>
 
-K-Nearest Neighbors Algorithm:<br>
+### K-Nearest Neighbors Algorithm:<br>
 The KNN algorithm is used to classify individuals into one of the two income classes (<=50K or >50K).<br>
 Distance metrics and neighbor counts are key parameters adjusted during the process.<br>
 
-### Dependencies:
+## Dependencies:
 Python 3.x<br>
 Pandas: For data manipulation and loading.<br>
 NumPy: For numerical computations.<br>
