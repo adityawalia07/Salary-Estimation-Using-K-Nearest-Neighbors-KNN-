@@ -34,6 +34,6 @@ Distance metrics and neighbor counts are key parameters adjusted during the proc
 - scikit-learn: For scaling features and implementing the KNN algorithm.<br>
 
 ## Visualizations:<br>
-= The heatmap generated in the notebook helps in visualizing the correlation between different features.<br>
+- The heatmap generated in the notebook helps in visualizing the correlation between different features.<br>
 - Features with a high correlation might contain redundant information, which can influence the model's performance.
 
