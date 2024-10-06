@@ -1,4 +1,4 @@
-# Salary-Estimation-Using-K-Nearest-Neighbors-KNN-
+# Salary-Estimation-Using-K-Nearest-Neighbors-KNN
 - This project uses the salary.csv dataset to predict an individual's income class (<=50K or >50K) based on various attributes such as age, education, capital gain, and hours worked per week.<br>
 - The project employs the K-Nearest Neighbors (KNN) algorithm for classification and includes steps for data preprocessing and visualization.
 
@@ -36,4 +36,11 @@ Distance metrics and neighbor counts are key parameters adjusted during the proc
 ## Visualizations:<br>
 - The heatmap generated in the notebook helps in visualizing the correlation between different features.<br>
 - Features with a high correlation might contain redundant information, which can influence the model's performance.
+
+## Outputs:
+### Example 1: Employee might get Salary > $50000 <br>
+![Screenshot 2024-10-06 161949](https://github.com/user-attachments/assets/44b02a11-676b-4465-8af3-15a6b2e8211d)
+<br>
+### Example 2: Employee might get Salary <= $50000 <br>
+![Screenshot 2024-10-06 161919](https://github.com/user-attachments/assets/ca931b1f-7d4e-4a13-b5ef-b1e67dcdf5b2)
 
